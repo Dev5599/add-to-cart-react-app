@@ -1,0 +1,31 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.nav-title h2{
+    margin-left: 20px;
+}
+.nav-stack ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-right: 150px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+.link:hover{
+    background-color: aquamarine;
+    color: black;
+    
+}
